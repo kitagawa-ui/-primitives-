@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "packages/components/arrow",
+    # "package/components/awatar",
+    # "package/components/checkbox",
+    # "package/components/dialog",
+    # "package/components/form",
+]
+
+[workspace.package]
+version = "0.0.1"
+authors = ["SpuerMomonga"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/kitagawa-ui/primitives"
+keywords = ["dioxus", "ui", "components", "kitagawa-ui"]
+
+[workspace.dependencies]
+
